@@ -1,0 +1,72 @@
+body {
+    background: white url("images/heart.png");
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 0;
+    margin-left: 200px;
+    text-align: center;
+    flex: 100;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.side-menu {
+    background-color: #000;
+    color: black;
+    width: 200px;
+    top: 0;
+    position: absolute;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+.side-menu ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.side-menu ul li {
+    padding: 10px 20px;
+    border-bottom: 1px solid #fff;
+    text-align: center;
+}
+
+.side-menu ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.side-menu ul li a:hover {
+  color: yellow;
+  text-decoration: solid;
+}
+
+main {
+    flex: 100;
+    padding: 50px;
+    margin-left: 200px;
+    text-align: left;
+}
+
+footer {
+    flex: 100;
+    color: black;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    margin-left: 100px;
+}
