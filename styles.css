@@ -60,11 +60,17 @@ header h1 {
 }
 
 main {
-    flex: 100;
+    display: flex;
     padding: 50px;
     margin-left: 200px;
     text-align: left;
     width: calc(100% - 200px);   /* заняли оставшуюся ширину */
+}
+
+.gif-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 footer {
