@@ -25,10 +25,11 @@ header h1 {
     background-color: #000;
     color: black;
     width: 200px;
+    position: fixed;
     top: 0;
-    position: absolute;
+    left: 0;
     height: 100vh;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .side-menu ul {
