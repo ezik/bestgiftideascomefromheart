@@ -60,7 +60,7 @@ header h1 {
 }
 
 main {
-    display: flex;
+    flex: 100;
     padding: 50px;
     margin-left: 200px;
     text-align: left;
