@@ -1,3 +1,7 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
 body {
     background: white url("images/heart.png");
     font-family: 'Arial', sans-serif;
@@ -10,6 +14,7 @@ header {
     margin-left: 200px;
     text-align: center;
     flex: 100;
+    width: calc(100% - 200px);   /* заняли оставшуюся ширину */
 }
 
 header h1 {
@@ -59,15 +64,16 @@ main {
     padding: 50px;
     margin-left: 200px;
     text-align: left;
+    width: calc(100% - 200px);   /* заняли оставшуюся ширину */
 }
 
 footer {
-    flex: 100;
-    color: black;
-    text-align: center;
     position: fixed;
     bottom: 0;
-    width: 100%;
+    left: 200px;                 /* привязали к правой части после меню */
+    width: calc(100% - 200px);   /* заняли оставшуюся ширину */
     height: 50px;
-    margin-left: 100px;
+
+    margin-left: 0;              /* убрать */
+    text-align: center;
 }
